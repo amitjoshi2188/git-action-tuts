@@ -1,8 +1,6 @@
 <?php
 echo "Hello World";
 
-  print_r('print function');
+print_r('print function');
 
-    var_dump('testing');
-
- ?>
+var_dump('testing');
