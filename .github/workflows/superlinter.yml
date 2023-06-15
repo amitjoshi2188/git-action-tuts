@@ -13,6 +13,10 @@ jobs:
       - name: action-php-codesniffer
         uses: tinovyatkin/action-php-codesniffer@v1
 
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.3
+        with:
+          prettier_options: --write **/*.{js,md,php}
       - name: Setup PHP Action
         uses: shivammathur/setup-php@2.25.4
 
